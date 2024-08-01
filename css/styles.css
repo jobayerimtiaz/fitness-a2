@@ -91,6 +91,11 @@
     font-weight: 900;
 }
 
+.dark-4 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 /* header styles */
@@ -313,6 +318,150 @@
     text-align: center;
 }
 
+
+/* run extra mile section */
+
+.run-extra-card {
+    width: 80%;
+    border-radius: 1.3rem;
+    background: rgb(34, 34, 34);
+    gap: 200px;
+    margin: 0 auto;
+}
+
+.run-extra-text {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.run-extra-img img {
+    width: 366px;
+    height: 300px;
+    border-radius: 18px;
+}
+
+.run-extra-text p {
+    margin-bottom: 30px;
+}
+
+.run-extra-div {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* training and exercise section */
+
+.training-and-exercise {
+    padding-bottom: 70px;
+}
+
+.training-pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.training-div-1 {
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr 0.3fr;
+    width: 80%;
+}
+
+.training-div-2 {
+    display: grid;
+    grid-template-columns: 0.4fr 0.25fr 0.35fr;
+    width: 80%;
+}
+
+.trining-card-1 {
+    background-image: url(../images/exercise-1.jpg);
+    background-color: rgba(6, 255, 210, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.trining-card-2 {
+    background-image: url(../images/exercise-2.png);
+    background-color: rgba(255, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+
+.trining-card-3 {
+    background-image: url(../images/exercise-3.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+
+.trining-card-4 {
+    background-image: url(../images/exercise-4.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+
+.trining-card-5 {
+    background-image: url(../images/exercise-5.jpg);
+    background-color: rgba(66, 255, 0, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+
+.trining-card-6 {
+    background-image: url(../images/exercise-6.jpg);
+    background-color: rgba(0, 71, 255, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+
+.ex-text-1,
+.ex-text-3,
+.ex-text-5,
+.ex-text-6 {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+
+.ex-text-2 {
+    position: absolute;
+    left: 15px;
+}
+
+.ex-text-4 {
+    position: absolute;
+    right: 15px;
+}
+
+.training-and-exercise-text {
+    flex-direction: column;
+    padding-left: 10%;
+    margin-bottom: 40px;
+}
+
+.training-and-exercise-text h2 {
+    margin-bottom: 0px;
+}
+
 @media screen and (max-width: 576px) {
     .menu {
         display: none;
@@ -400,4 +549,47 @@
         text-align: center;
     }
 
+    .run-extra-card {
+        flex-direction: column;
+        width: 90%;
+        gap: 30px;
+    }
+
+    .run-extra-text {
+        width: 80%;
+    }
+
+    .run-extra-text h2 {
+        font-size: 32px;
+    }
+
+    .btn-resize {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .run-extra-img img {
+        width: 90%;
+    }
+
+    .run-extra-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .training-and-exercise-text {
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .training-and-exercise-text h2 {
+        font-size: 38px;
+    }
+
+    .training-div-1,
+    .training-div-2 {
+        width: 90%;
+    }
 }
