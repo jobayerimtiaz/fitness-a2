@@ -577,6 +577,99 @@ input::placeholder {
     padding-left: 20px;
 }
 
+/* meet our team section */
+
+.meet-team-text {
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.meet-team-text h2 {
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+
+.team-image-container {
+    width: 80%;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.image-box-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    gap: 27px;
+    width: 95%;
+}
+
+.image-box-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+    gap: 27px;
+    width: 95%;
+}
+
+.trainer-img-1,
+.trainer-img-2,
+.trainer-img-3,
+.trainer-img-4,
+.trainer-img-5,
+.trainer-img-6 {
+    height: 270px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.trainer-info {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.p-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+.p-title {
+    margin-top: 0px;
+}
+
+.trainer-img-1 {
+    background-image: url(../images/trainer-1.png);
+}
+
+.trainer-img-2 {
+    background-image: url(../images/trainer-2.png);
+}
+
+.trainer-img-3 {
+    background-image: url(../images/trainer-3.png);
+}
+
+.trainer-img-4 {
+    background-image: url(../images/trainer-4.png);
+}
+
+.trainer-img-5 {
+    background-image: url(../images/trainer-5.png);
+}
+
+.trainer-img-6 {
+    background-image: url(../images/trainer-6.png);
+}
+
 @media screen and (max-width: 576px) {
     .menu {
         display: none;
@@ -696,12 +789,12 @@ input::placeholder {
     }
 
     .training-and-exercise-text {
-        width: 100%;
-        padding-left: 5%;
+        width: 90%;
     }
 
     .training-and-exercise-text h2 {
         font-size: 38px;
+        padding-left: 6%;
     }
 
     .training-div-1,
@@ -763,6 +856,27 @@ input::placeholder {
         width: 65%;
     }
 
+    .meet-team-text h2 {
+        font-size: 32px;
+    }
 
+    .image-box-1 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
 
+    .image-box-2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .team-image-container {
+        width: 90%;
+    }
+
+    .p-name {
+        white-space: nowrap;
+    }
 }
