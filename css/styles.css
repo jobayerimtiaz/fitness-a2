@@ -794,6 +794,11 @@ input::placeholder {
         display: block;
     }
 
+    .nav-container {
+        width: 90%;
+        margin-left: 15px;
+    }
+
     .web-intro {
         flex-direction: column;
     }
@@ -805,6 +810,8 @@ input::placeholder {
 
     .web-intro-text p {
         width: 80%;
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .normal-text {
@@ -904,12 +911,17 @@ input::placeholder {
     }
 
     .training-and-exercise-text {
-        width: 90%;
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .training-and-exercise-text p {
+        padding-left: 0;
+        margin-left: 0;
     }
 
     .training-and-exercise-text h2 {
         font-size: 38px;
-        padding-left: 6%;
     }
 
     .training-div-1,
@@ -917,13 +929,38 @@ input::placeholder {
         width: 90%;
     }
 
+    .trining-card-3,
+    .trining-card-6 {
+        display: none;
+    }
+
+    .training-div-1 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .training-div-2 {
+        grid-template-columns: 0.45fr 0.55fr;
+    }
+
+    .trining-card-1,
+    .trining-card-2,
+    .trining-card-4,
+    .trining-card-5 {
+        height: 150px;
+    }
+
     .bmi-text {
-        padding-left: 2%;
+        padding-left: 6%;
+        width: 90%;
     }
 
     .bmi-text h2 {
         font-size: 32px;
-        padding-left: 6%;
+    }
+
+    .bmi-text p {
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .bmi-table-form {
@@ -965,6 +1002,10 @@ input::placeholder {
         align-items: center;
         margin-left: 3%;
         margin-bottom: 40px;
+    }
+
+    .input-group-3 select {
+        width: 94%;
     }
 
     .btn-resize-2 {
