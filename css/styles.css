@@ -116,7 +116,7 @@
 /* nav styles */
 
 .nav-container {
-    width: 80%;
+    width: 72%;
     margin: 0 auto;
 }
 
@@ -876,7 +876,10 @@ input::placeholder {
     }
 
     .change-habit-text p {
+        width: 90%;
         text-align: center;
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .run-extra-card {
@@ -891,7 +894,11 @@ input::placeholder {
 
     .run-extra-text h2 {
         font-size: 32px;
-        margin-left: 6%;
+    }
+
+    .run-extra-text p {
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .btn-resize {
@@ -985,22 +992,33 @@ input::placeholder {
         margin: 0 auto;
     }
 
-    .bmi-calculate h2,
+    /* .bmi-calculate h2,
     p {
         margin-left: 7%;
         text-align: left;
+    } */
+
+    .bmi-calculate-text {
+        padding-left: 7%;
+        /* width: 90%; */
     }
 
-    .bmi-calculate h2 {
+    .bmi-calculate-text h2 {
         font-size: 16px;
     }
 
+    .bmi-calculate-text p {
+        margin-left: 0;
+        padding-left: 0;
+        width: 90%;
+    }
+
     .bmi-form-container {
-        width: 100%;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 3%;
+        margin-left: 5%;
         margin-bottom: 40px;
     }
 
@@ -1014,6 +1032,13 @@ input::placeholder {
 
     .meet-team-text h2 {
         font-size: 32px;
+    }
+
+    .meet-team-text p {
+        width: 90%;
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
     }
 
     .image-box-1 {
