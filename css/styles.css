@@ -340,10 +340,13 @@
     margin-bottom: 30px;
 }
 
-.run-extra-img img {
+.run-extra-img {
     width: 366px;
     height: 300px;
+    background-image: url(../images/run.jpg);
     border-radius: 18px;
+    background-size: 300%;
+    background-position: 70% 30%;
 }
 
 .run-extra-text p {
@@ -906,8 +909,10 @@ input::placeholder {
         margin: 0 auto;
     }
 
-    .run-extra-img img {
+    .run-extra-img {
         width: 90%;
+        height: 220px;
+        background-size: cover;
     }
 
     .run-extra-img {
