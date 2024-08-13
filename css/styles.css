@@ -561,7 +561,7 @@ td {
 }
 
 .input-group-3 select {
-    width: 93%;
+    width: 92.5%;
     height: 48px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -576,6 +576,7 @@ td {
     font-weight: 400;
     text-align: left;
     padding-left: 20px;
+    border-right: 20px solid transparent;
 }
 
 input::placeholder {
@@ -997,15 +998,8 @@ input::placeholder {
         margin: 0 auto;
     }
 
-    /* .bmi-calculate h2,
-    p {
-        margin-left: 7%;
-        text-align: left;
-    } */
-
     .bmi-calculate-text {
         padding-left: 7%;
-        /* width: 90%; */
     }
 
     .bmi-calculate-text h2 {
@@ -1077,7 +1071,7 @@ input::placeholder {
     }
 
     .mental-health-description p {
-        padding-right: 5%;
+        margin-left: 0;
     }
 
     .form-btn {
